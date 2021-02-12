@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: 66% 33%;
+  grid-template-areas:
+    "searchbar searchbar"
+    "video search";
+  width: 100%;
+}
+
+.search-bar {
+  grid-area: searchbar;
+}
+
+.search-grid {
+  margin: 0;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "searchbar"
+      "video"
+      "search";
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1281px) {
+  .container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 66% 34%;
+    grid-template-areas:
+      "searchbar searchbar"
+      "video search";
+  }
+}

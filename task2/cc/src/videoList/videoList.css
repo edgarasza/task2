@@ -1,0 +1,12 @@
+.video {
+  grid-area: video;
+  height: 570px;
+  width: 99.5%;
+  margin-top: 6px;
+}
+.search {
+  grid-area: search;
+  width: 180px;
+  display: grid;
+  margin-top: 3px;
+}

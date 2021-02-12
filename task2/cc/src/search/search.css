@@ -1,0 +1,11 @@
+.search-container {
+  margin: auto;
+}
+.search-button {
+  height: 40px;
+  width: 60px;
+  margin-top: 15px !important;
+}
+.search-field {
+  width: 260px;
+}
